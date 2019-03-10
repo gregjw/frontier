@@ -1,0 +1,69 @@
+/* Variables */
+$vin-blue: #8894FF;
+$vin-green: #60b044;
+$vin-red: #ff0000;
+@import url('https://rsms.me/inter/inter-ui.css');
+@font-face {
+  font-family: 'Tiempos Text';
+  src: url('https://s3-us-west-1.amazonaws.com/tiny-cdn/TiemposText-Bold.otf');
+}
+
+/* Styles */
+body {
+  font-family: "VCR OSD Mono", "Minecraft", Courier, mono-space;
+  background-color: #241F27;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+@media only screen and (max-width: 650px) {
+  body {
+    margin: 20px;
+    width: 80%;
+    min-width: 80%;
+    max-width: 80%;
+  }
+}
+
+@supports (font-variation-settings: normal) {
+  body { font-family: 'Inter UI var alt', sans-serif; }
+}
+
+td {
+	padding: 12px;
+}
+
+button {
+  font-family: 'Inter UI', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  background-image: linear-gradient(to right,#8894FF,#596cff);
+  font-weight: 600;
+  outline: none;
+  border: none;
+  color: #fff;
+  margin-top: 25px;
+  border-radius: 5px;
+  padding: 15px 15px;
+}
+
+h2 {
+  color: $vin-blue;
+  font-family: 'Tiempos Text';
+}
+
+h4{
+  color: #888;
+  margin-top: 50px;
+  margin-left: 5px;
+}
+
+p {
+  margin-left: 5px;
+}
+.savings { color: $vin-green; }
+.loss { color: $vin-red; }
+input.small { width: 46px; }
+td.fuel-savings-label { width: 175px; }

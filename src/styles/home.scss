@@ -1,0 +1,173 @@
+* {
+    font-family: "VCR OSD Mono", "Minecraft", Courier, mono-space;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+  }
+  
+  h1 {
+    font-style: italic;
+    color: #373fff;
+  }
+  
+  .navbar {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    background-color: #312736;
+    z-index: 1;
+  }
+  
+  .icon {
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: inline-block;
+  }
+  
+  .link {
+    color: white;
+    margin: 10px;
+    margin-top: 25px;
+    margin-right: 25px;
+    float: right;
+    cursor: pointer;
+  }
+  
+  .support {
+    color: #4E60FF;
+    margin: 10px;
+    margin-top: 25px;
+    margin-right: 25px;
+    float: right;
+    cursor: pointer;
+  /*   -webkit-text-shadow: 0 0 5px #4E60FF;
+    -moz-text-shadow: 0 0 5px #4E60FF;
+    text-shadow: 0 0 5px #4E60FF; */
+  }
+  
+  .universe { 
+    padding-top: 60px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    align-items: flex-start;
+  }
+  
+  .line {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .current{
+    height: 10px;
+    width: 10px;
+    margin: 5px;
+    background-color: #4E60FF;
+    border-radius: 2px;
+    display: inline-block;
+    -webkit-box-shadow: 0 0 15px #4E60FF;
+    -moz-box-shadow: 0 0 15px #4E60FF;
+    box-shadow: 0 0 15px #4E60FF;
+  }
+  
+  .unoccupied{
+    height: 10px;
+    width: 10px;
+    margin: 5px;
+    background-color: #241F27;
+    border-radius: 2px;
+    display: inline-block;
+  }
+  
+  .occupied{
+    height: 10px;
+    width: 10px;
+    margin: 5px;
+    background-color: #FFF;
+    border-radius: 2px;
+    display: inline-block;
+    -webkit-box-shadow: 0 0 15px #FFF;
+    -moz-box-shadow: 0 0 15px #FFF;
+    box-shadow: 0 0 15px #FFF;
+  }
+  
+  .starmap {
+    background-color: #312736;
+    display: inline-block;
+    position: absolute;
+    padding: 10px;
+    margin: 10px;
+    max-width: 300px;
+    border-radius: 3px;
+  }
+  
+  .data {
+    background-color: #312736;
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 410px;
+    position: relative;
+    border-radius: 3px;
+  }
+  
+  .current-sector { 
+    color: #C8BAFF;
+    margin: 10px;
+    margin-top: 20px;
+  }
+  
+  .current-zone {
+    color: #6C7BFF;
+    margin: 10px;
+  }
+  
+  .current-balance {
+    color: #FF7C84;
+    margin: 10px;
+  }
+  
+  .current-players {
+    color: #A5CBFF;
+    margin: 10px;
+  }
+  
+  .info {
+    display: block;
+    background-color: #312736;
+    width: 600px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 3px;
+  }
+  
+  .info-inner {
+    background-color: #241F27;
+    display: block;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 3px;
+  }
+  
+  .chat {
+    background-color: #312736;
+    width: 600px;
+    height: 80vh;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 3px;
+  }
+  
+  .title {
+    color: white;
+    margin: 10px;
+    margin-bottom: 20px;
+  }
+  
